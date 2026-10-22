@@ -159,5 +159,21 @@ print(calculatediscount(100, 105)) # Should raise an exception
 
 </ul>
 <h3>Lesson 6: LLM-Powered Coding Tools: Strengths and Weaknesses</h3>
+https://learn.deeplearning.ai/specializations/generative-ai-for-software-development/lesson/mmxyiw/llm-powered-coding-tools%3A-strengths-and-weaknesses
+
+<h3>Lesson 7: The Context Window</h3>
+<li>Longest token sequence a model can process</li>
+<li>Range from ~16,000 tokens to 1,000,000+</li>
+<li>That's 25 to 1,500 pages</li>
+<li>May seem large, but it can be used up quickly</li>
+
+<br />
+<td style="background-color: red">LLM Have no memory</td>
+<li>LLMs don't remember previous prompts or responses</li>
+<li>Ongoing conversations are saved in a "chat history"</li>
+<li>When you send a prompt, the entire chat history is also included so the model knows what was said</li>
+<li>As conversations continue, more of the context window is used up</li>
+
+<br />
 <br />
 https://learn.deeplearning.ai/specializations/generative-ai-for-software-development
